@@ -1,28 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-      <h1 className='text-3xl font-bold underline'>Learning React with typescript and tailwind css</h1>
-
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-
-      </header>
+      <h1 className='font-bold text-3xl underline'>Blog App</h1>  
+      <p className='p-5 font-mono' >Building blog app using react, typescript, tailwind-css, node.js, express.js and MySQL database.</p>
     </div>
   );
 }

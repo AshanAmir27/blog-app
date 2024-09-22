@@ -18,9 +18,10 @@ function Navbar() {
         </div>
         {/* Full Menu (visible on larger screens) */}
         <ul className="hidden lg:flex space-x-8 text-gray-600">
-          <li className="hover:text-gray-900 cursor-pointer">Home</li>
-          <li className="hover:text-gray-900 cursor-pointer">About</li>
-          <li className="hover:text-gray-900 cursor-pointer">Blogs</li>
+          <li className="hover:text-gray-900 cursor-pointer py-2">Home</li>
+          <li className="hover:text-gray-900 cursor-pointer py-2">About</li>
+          <li className="hover:text-gray-900 cursor-pointer py-2">Blogs</li>
+          <li className="bg-blue-500 text-white py-2 px-4 rounded-md"><button>Sign-up</button></li>
         </ul>
       </div>
 

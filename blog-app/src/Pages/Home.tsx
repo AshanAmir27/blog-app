@@ -8,9 +8,11 @@ function Home() {
         Where Words Ignite Change: <br />
         <span className='font-bold'>Explore, Learn, Create</span>
       </h1>
-      <button className='bg-green-500 hover:text-gray-900 hover:bg-white hover:border-2 text-white py-2 px-4 rounded-md'>
+      {/* <button className='bg-green-500 hover:text-gray-900 hover:bg-white hover:border-2 text-white py-2 px-4 rounded-md'>
         Get Started!
-      </button>
+      </button> */}
+
+      <button className='text-white border-2 px-2 py-2 hover:bg-white hover:text-black rounded-md text-xl hover:border-blue-500 transition-all duration-300 ease-in-out transform hover:scale-105 hover:-translate-y-1'>Get Started!</button>
     </div>
   );
 }

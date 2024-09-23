@@ -1,0 +1,7 @@
+.bgCustom {
+  background-image: url("./Assets/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; /* This makes the image cover the entire background */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure the background takes up the full viewport height */
+}
